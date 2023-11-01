@@ -1,0 +1,36 @@
+/*Colores*/
+:root{
+    --primary-color: #4f4aa6;
+    --secondary-color: #48ca95;
+    --bg-color: #f7f7f7;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+/*Fuentes de texto*/
+@font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-extrabold;
+    src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+/*-----Header-----*/
+header{
+    background-image: url(./assets/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
