@@ -118,3 +118,37 @@ nav ul li a:hover{
     background-color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
 }
+/*------Fin Header------*/
+
+/*------Sección Tarjetas------*/
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 5px;
+    padding: 30px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h5{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    text-align: center;
+}
+
