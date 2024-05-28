@@ -4,8 +4,10 @@
     --secondary-color: #48ca95;
     --bg-color: #f7f7f7;
     --light-color: #fff;
+    --dark-color: #000;
 
     --header-title-font: Poppins-Bold;
+    --section-title-font: Poppins-semibold;
     --text-font: Poppins;
     --menu-font: Poppins-Bold;
 }
@@ -31,6 +33,11 @@
 @font-face {
     font-family: Poppins-extrabold;
     src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-semibold;
+    src: url(./assets/fonts/Poppins-SemiBold.ttf);
 }
 
 /*-----Header-----*/
@@ -153,3 +160,56 @@ nav ul li a:hover{
 }
 /*------Fin Sección Tarjetas------*/
 
+/*------Sección Productos------*/
+.products{
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.products h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: var(--section-title-font);
+    border-bottom: 1px solid var(--secondary-color);
+    margin-bottom: 25px;
+}
+
+.products-container{
+    background-color: var(--light-color);
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    margin-bottom: 100px;
+}
+
+.product-card{
+    width: 203px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.product-card a{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-secondary{
+    color: var(--secondary-color);
+    padding: 15px 60px;
+    border: 2px solid var(--secondary-color);
+    text-decoration: none;
+    margin: 0px 5px;
+}
+/*------Fin Sección Productos------*/
